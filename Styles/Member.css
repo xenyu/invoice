@@ -1,0 +1,797 @@
+﻿/* Governsoft - Invoice member.css
+----------------------------------------------------------*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: #AAE74A url(../Images/m04.gif) repeat-x;
+}
+
+body, th, td, input, textarea
+{
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    font-size: small;
+    color: #666666;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+/* Menu */
+.menuTable
+{
+    table-layout: fixed;
+    width: 1024px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.menu
+{
+    width: 438px;
+    margin: 0 auto;
+}
+
+.menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu li
+{
+    display: block;
+    float: left;
+}
+
+.menu li:hover
+{
+}
+
+.menu a
+{
+    display: block;
+    float: left;
+    padding: 8px 20px 0 20px;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #000000;
+    height: 32px;
+}
+
+.menu a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.menuDate
+{
+    text-align: right;
+    margin: auto;
+}
+
+/* Page */
+.page
+{
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+    background: #FFFFFF url(../Images/m07.gif) repeat-y;
+}
+
+/* Content */
+.content
+{
+    float: right;
+    width: 762px;
+    padding: 0px 11px 0px 5px;
+    background: url(../Images/m09.gif) no-repeat;
+}
+
+.content a
+{
+    color: #FF8900;
+}
+
+.pagetitle
+{
+    height: 24px;
+    margin-top: 8px;
+    padding-left: 8px;
+    font-size: medium;
+    background: url(../Images/m13.gif) no-repeat;
+    color: #FFFFFF;
+}
+
+.post
+{
+    /*padding: 40px 30px 0 30px;*/
+}
+
+/* Sidebar */
+.sidebar
+{
+    float: left;
+    width: 230px;
+    padding: 11px 5px 0px 11px;
+    background: url(../Images/m08.gif) no-repeat;
+}
+
+.sidebar ul
+{
+}
+
+.sidebar li
+{
+    text-align: center;
+    display: inline;
+}
+
+.sidebar li li
+{
+    background: url(../Images/m12.gif) no-repeat left center;
+}
+
+.sidebar h2
+{
+    height: 24px;
+    padding-top: 4px;
+    background: url(../Images/m11.gif) no-repeat;
+    font-size: medium;
+    color: #FFFFFF;
+}
+
+.sidebar a
+{
+    text-decoration: none;
+    color: #0065FF;
+}
+
+.sidebar a:hover
+{
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer
+{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    background: url(../Images/m10.gif) no-repeat;
+}
+
+.footer p
+{
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: small;
+}
+
+.footer a
+{
+    color: #FFFFFF;
+}
+
+/* Invoice */
+.invoiceListBox
+{
+    width: 222px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.invoiceListBox2
+{
+    width: 222px;
+    margin-bottom: 4px;
+}
+
+.accountTitle
+{
+    table-layout: fixed;
+    width: 762px;
+    margin-left: 4px;
+}
+
+.accountTitle th
+{
+    text-align: left;
+}
+
+.accountTitle td
+{
+    vertical-align: middle;
+}
+
+.accountType
+{
+    width: 96px;
+    text-align: center;
+}
+
+.accountCompany
+{
+    width: 236px;
+    font-size: medium;
+}
+
+.accountInfo
+{
+}
+
+.gridTable
+{
+    table-layout: fixed;
+    width: 762px;
+    text-align: right;
+}
+
+.gridTable th
+{
+}
+
+.gridTable td
+{
+    text-align: right;
+}
+
+.leftCell
+{
+    padding-left: 2px;
+    text-align: left;
+    float: left;
+}
+
+.centerCell
+{
+    padding-right: 2px;
+    text-align: center;
+}
+
+.cellGroup
+{
+    width: 106px;
+}
+
+.cellColor
+{
+    width: 48px;
+}
+
+.cellSize
+{
+    width: 28px;
+}
+
+.cellPrice
+{
+    width: 72px;
+    text-align: center;
+}
+
+.cellQuantity
+{
+    width: 36px;
+}
+
+.cellAmount
+{
+    width: 96px;
+}
+
+.listboxGroup
+{
+    width: 106px;
+}
+
+.listboxColor
+{
+    width: 48px;
+}
+
+.textboxSize
+{
+    width: 28px;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.textboxPrice
+{
+    width: 68px;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.labelQuantity
+{
+    width: 36px;
+    padding-right: 2px;
+}
+
+.labelAmount
+{
+    width: 100%;
+    padding-right: 2px;
+}
+
+.sum
+{
+    width: 762px;
+    margin-top: 4px;
+    height: 24px;
+}
+
+.sum ul
+{
+    padding-left: auto;
+    padding-right: auto;
+    float: right;
+}
+
+.sum li
+{
+    display: inline;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.companyControl
+{
+    vertical-align: top;
+    width: 366px;
+    height: 32px;
+    margin-top: 4px;
+    margin-left: 8px;
+    padding-top: 4px;
+    padding-left: 16px;
+    background: url(../Images/m17.gif) no-repeat;
+}
+
+.companyControl ul
+{
+    text-align: left;
+}
+
+.companyControl li
+{
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.companyControl2
+{
+    vertical-align: top;
+    width: 366px;
+    height: 32px;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    background: url(../Images/m17.gif) no-repeat;
+}
+
+.companyControl2 ul
+{
+    text-align: left;
+}
+
+.companyControl2 li
+{
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.companyButton
+{
+    width: 64px;
+    height: 24px;
+    font-weight: bold;
+}
+
+.control
+{
+    width: 762px;
+    height: 32px;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-left: 70px;
+    background: url(../Images/m15.gif) no-repeat;
+}
+
+.control ul
+{
+    text-align: left;
+}
+
+.control li
+{
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.controlButton
+{
+    width: 84px;
+    height: 24px;
+    font-weight: bold;
+}
+
+/* PrintInvoice */
+.printBody
+{
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+.printTable
+{
+    table-layout: fixed;
+    width: 20.5cm;
+}
+
+.printTitle
+{
+    width: 100%;
+}
+
+.printTitle th
+{
+    text-align: left;
+    font-size: small;
+    color: Black;
+}
+
+.printTitle td
+{
+    vertical-align: middle;
+    color: Black;
+}
+
+.printType
+{
+    width: 96px;
+    text-align: center;
+}
+
+.printCompany
+{
+    width: 236px;
+    font-size: medium;
+}
+
+.printInfo
+{
+    font-weight: normal;
+}
+
+.printGrid
+{
+    width: 100%;
+    text-align: right;
+    border-color: Black;
+}
+
+.printGrid th
+{
+    color: Black;
+    border-color: Black;
+}
+
+.printGrid td
+{
+    text-align: right;
+    color: Black;
+    border-color: Black;
+}
+
+.printSum
+{
+    width: 100%;
+    height: 24px;
+    color: Black;
+}
+
+.printSum ul
+{
+    padding-left: auto;
+    padding-right: auto;
+    float: right;
+}
+
+.printSum li
+{
+    display: inline;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.printBottom
+{
+    width: 100%;
+    margin-top: 4px;
+}
+
+.printBottom td
+{
+    color: Black;
+}
+
+/* Company */
+.tableCompany
+{
+    border-collapse: collapse;
+    width: 762px;
+}
+
+.tableCompany tr td
+{
+    padding-left: 2px;
+}
+
+.recordGrid
+{
+    width: 222px;
+    margin: auto;
+    text-align: right;
+}
+
+.recordGrid th
+{
+    background-color: #6699FF;
+    color: Black;
+}
+
+.recordGrid tr td
+{
+    padding-right: 2px;
+}
+
+.menuCompany
+{
+    float: none;
+    width: 212px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+
+.menuCompany td:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.companyData
+{
+    vertical-align: top;
+    width: 100%;
+}
+
+.companyData li
+{
+    padding-left: 4px;
+    padding-top: 4px;
+    list-style-type: none;
+}
+
+.dataTable tr td
+{
+    padding-left: 4px;
+    padding-top: 4px;
+    list-style-type: none;
+}
+
+.personData
+{
+    vertical-align: top;
+}
+
+.companyPerson
+{
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.companyPerson td
+{
+    vertical-align: top;
+}
+
+.companyPerson li
+{
+    list-style-type: none;
+    padding-top: 2px;
+}
+
+.companyPerson th
+{
+    height: 24px;
+    background: url(../Images/m16.gif) no-repeat;
+    font-size: medium;
+    color: #FFFFFF;
+}
+
+.companyProduct
+{
+}
+
+.companyType
+{
+}
+
+.dataTable
+{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 762px;
+}
+
+.dataTable tr td
+{
+    vertical-align: top;
+}
+
+.dataTable li
+{
+    padding-left: 4px;
+    list-style-type: none;
+}
+
+.dataCompany
+{
+    width: 400px;
+    margin-left: 4px;
+}
+
+.dataLeft
+{
+    width: 210px;
+    text-align: center;
+    margin-top: 4px;
+    vertical-align: top;
+}
+
+.dataRight
+{
+}
+
+.dataListBox
+{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.detailData
+{
+}
+
+.detailData li
+{
+    margin-top: 4px;
+}
+
+/* Report */
+.menuReport
+{
+    float: none;
+    width: 208px;
+    padding: auto;
+    margin: auto;
+}
+
+.menuReport td:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.reportTable
+{
+    table-layout: fixed;
+    width: 762px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reportTable td
+{
+    text-align: center;
+    padding-left: 12px;
+}
+
+.reportListBox
+{
+    width: 208px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.reportAccountGrid
+{
+    table-layout: fixed;
+    width: 762px;
+}
+
+.reportAccountGrid td
+{
+    text-align: right;
+    padding-right: 2px;
+}
+
+.reportAccountTotal
+{
+    table-layout: fixed;
+    width: 756px;
+}
+
+.totalTable
+{
+    table-layout: fixed;
+    width: 762px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.totalTable td
+{
+    text-align: center;
+    padding-left: 12px;
+}
+
+/* Default */
+.menuDefault
+{
+    float: none;
+    width: 208px;
+    padding: auto;
+    margin: auto;
+}
+
+.menuDefault td:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.defaultGrid
+{
+    table-layout: fixed;
+    width: 762px;
+    margin-top: 4px;
+}
+
+.defaultGrid td
+{
+    text-align: right;
+    color: Black;
+    padding-right: 2px;
+}
+
+.defaultPager
+{
+    padding-top: 4px;
+}
+
+.defaultPager td
+{
+    padding-left: 4px;
+    font-size: medium;
+}
+
+.defaultDiv
+{
+    margin-top: 4px;
+}

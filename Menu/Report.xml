@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menuMap>
+    <menuMapNode title="未付款對帳單" description="未付款對帳單據" value="account"/>
+    <menuMapNode title="單一客戶報表" description="單一客戶銷售交易報表" value="list"/>
+    <menuMapNode title="列印未收帳報表" description="列表所有未收款項" value="debt"/>
+    <menuMapNode title="列印營業報表" description="列表營業狀況" value="report"/>
+</menuMap>

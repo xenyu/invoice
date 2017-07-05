@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menuMap>
+    <menuMapNode title="公司編輯" description="編輯公司及人員資料" value="company"/>
+    <menuMapNode title="商品資料" description="供貨廠商商品編輯" value="product"/>
+    <menuMapNode title="商品類型" description="供貨廠商商品類型" value="type"/>
+</menuMap>

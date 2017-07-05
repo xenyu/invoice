@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menuMap>
+    <menuMapNode title="未完成單據" description="尚未確認款項或商品的單據" value="waiting"/>
+    <menuMapNode title="庫存查詢" description="查詢目前商品庫存狀態" value="inventory"/>
+    <menuMapNode title="失聯紀錄" description="取得超過一定時間未再度交易的公司" value="lost"/>
+</menuMap>

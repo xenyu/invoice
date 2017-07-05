@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="首頁">
+        <siteMapNode url="~/Member/Default.aspx" title="管理首頁" imageUrl="~/Images/default.gif" description="最近幾日應該注意的事項"/>
+        <siteMapNode url="~/Member/Invoice.aspx" title="進銷作業" imageUrl="~/Images/account.gif" description="登入每一筆商品進貨、出貨及退貨事項"/>
+        <siteMapNode url="~/Member/Report.aspx" title="報表製作" imageUrl="~/Images/report.gif" description="條件式觀看或列印資料庫內的資料"/>
+        <siteMapNode url="~/Member/Company.aspx" title="公司資料" imageUrl="~/Images/company.gif" description="設定或修改廠商、客戶資料"/>
+    </siteMapNode>
+</siteMap>
