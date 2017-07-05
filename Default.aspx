@@ -63,7 +63,7 @@
         </div>
     </div>
     <div id="content">
-		<a href="http://invoice2.governsoft.com">舊版遠端管理系統/a>
+		<a href="http://invoice2.governsoft.com">舊版遠端管理系統</a>
 	</div>
     <div id="footer">
         <p id="legal">
